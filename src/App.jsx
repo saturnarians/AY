@@ -25,7 +25,7 @@ const App = () => (
  <Footer />
 
  <Routes>
-<Route index element={<HomePage />} {/* errorElement= {<ErrorPage />}*/}  /> 
+<Route index element={<HomePage />} />  {/* errorElement= {<ErrorPage />} put element inside the index element*/} 
 <Route path="AboutUs" element={<AboutUs/>} />
 <Route path="Clients" element={<Clients/>} />
 <Route path="ContactUs" element={<ContactUs/>} />
