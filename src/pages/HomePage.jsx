@@ -11,18 +11,18 @@ import Footer from "../components/Footer";
 const HomePage = () => {
   return (
     <>
-    <div className="h-full font-[sans-serif] bg-center bg-cover w-[auto] grid">
-      <div className=" place-self-center">
+    <div className="h-full font-[sans-serif] bg-center bg-cover w-[auto]">
+      <div className=" ">
       <Header />
       </div>
-      <div className=" place-self-center">
+      <div className=" ">
       <Navbar className=' place-self-center'/>
       </div>
-      <div className=" place-self-center">
+      <div className="">
       <Hero className='' />
       </div>
       
-      <div className="place-self-center">
+      <div className="">
         <QuoteForm />
       </div>
 
