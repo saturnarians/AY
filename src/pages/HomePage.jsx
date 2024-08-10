@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 
 
-const IndexPage = () => {
+const HomePage = () => {
   return (
     <>
     <div className="h-full font-[sans-serif] bg-center bg-cover w-[auto] grid">
@@ -39,4 +39,4 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+export default HomePage;
