@@ -25,7 +25,6 @@ const App = () => (
  <Footer />
 
  <Routes>
-<<<<<<< HEAD
 <Route index element={<HomePage />} /> 
 {/* errorElement= {<ErrorPage />} */}
 =======
