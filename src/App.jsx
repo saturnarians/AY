@@ -20,7 +20,6 @@ const App = () => (
 <Route path="/" element={<Routes />}>
 </Route>
 </Routes>
-</div>
 );
 
 export default App;
