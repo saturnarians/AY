@@ -7,7 +7,8 @@ import ContactUs from './pages/ContactUs';
 // import ErrorPage from "./ErrorHandling/Error";
 import { Route, Routes } from "react-router-dom";
 
-const App = () => (
+const App = () => {
+    return (
 
 
 <Routes>
@@ -17,9 +18,8 @@ const App = () => (
 <Route path="Clients" element={<Clients/>} />
 <Route path="ContactUs" element={<ContactUs/>} />
 <Route path="LatestNews" element={<LatestNews/>} />
-<Route path="/" element={<Routes />}>
-</Route>
+<Route path="/" element={<Routes />}></Route>
 </Routes>
 );
-
+};
 export default App;
