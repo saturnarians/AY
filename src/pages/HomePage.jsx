@@ -3,7 +3,6 @@ import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Hero from "../components/HeroSlider";
 import QuoteForm from "../components/QuoteForm";
-import Button from "../components/Buttons";
 import Footer from "../components/Footer";
 
 
@@ -11,7 +10,17 @@ import Footer from "../components/Footer";
 const HomePage = () => {
   return (
     <>
-   
+   <div className="app">
+ <Header />
+ <Navbar />
+ <HeroSlider />
+ <QuoteForm />
+ <Clients />
+ <AboutUs />
+ <LatestNews />
+ <ContactUs />
+ <Footer />
+</div>
     </>
   );
 };
