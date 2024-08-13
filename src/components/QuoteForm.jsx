@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import { MdOutlineMail } from "react-icons/md";
 import { MdAddIcCall } from "react-icons/md";
 import { IoTimeOutline } from "react-icons/io5";
@@ -20,7 +20,7 @@ const QuoteForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData, 'YOUR_USER_ID')
+    emailjs.send("service_g1tdkb9","template_44zhkel", formData, 'VJi69gQ80JUFaOk7A')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         alert('Your enquiry has been sent successfully!');

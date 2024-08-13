@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <div className="relative flex justify-between items-center px-6 bg-gray-900">
-      <img src={Logo} alt="Active Management" className="mx-2 w-[60px] h-[60px]" />
+      <img src={Logo} alt="Active Management" className="mx-1 w-[60px] h-[60px]" />
 
       {/* Mobile Menu Button */}
       <div className="flex 2xl:hidden">
@@ -29,6 +29,7 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <nav className="hidden 2xl:flex text-white p-4 space-x-4 justify-end items-center mx-4">
         <div className="flex space-x-4 items-center">
+        <RouterLink to={'./'}>Home</RouterLink>
           <div className="relative group">
             <RouterLink to={'./Clients'} className="flex items-center space-x-1">
               <span>Clients</span>
@@ -53,6 +54,7 @@ const Navbar = () => {
       {mobileMenuOpen && (
         <div className="2xl:hidden absolute top-full left-0 w-full bg-gray-800 text-white z-50">
           <div className="flex flex-col space-y-2 p-4">
+          <RouterLink to={'./'}>Home</RouterLink>
             <div className="relative">
               <button
                 onClick={toggleClientsMenu}

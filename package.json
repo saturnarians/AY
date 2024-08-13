@@ -16,6 +16,7 @@
     "@mui/icons-material": "^5.16.6",
     "@mui/material": "^5.16.6",
     "@react-google-maps/api": "^2.19.3",
+    "@tawk.to/tawk-messenger-react": "^2.0.2",
     "axios": "^1.7.3",
     "emailjs-com": "^3.2.0",
     "react": "^18.3.1",
@@ -28,6 +29,7 @@
     "react-scroll": "^1.9.0",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.12",
     "taos": "^1.0.5",
     "typed.js": "^2.1.0",
     "web-vitals": "^4.2.3"

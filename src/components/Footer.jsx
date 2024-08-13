@@ -3,7 +3,7 @@ import { FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from 're
 
 const Footer = () => {
   return (
-    <footer className="h-full bg-gray-800 text-white p-8 mb-6">
+    <footer className="h-full bg-gray-800 text-white p-8 ">
       <div className="grid grid-cols-2 xl:grid-cols-4 gap-4">
         <div className='place-self-center'>
           <h3 className="font-bold mb-2">About Us</h3>
@@ -13,7 +13,7 @@ const Footer = () => {
             <li>Privacy Policy</li>
           </ul>
         </div>
-        <div className='place-self-center mt-[-49px] md:mt-[-29px] xl:mt-[-22px]'>
+        <div className='place-self-center mt-[-48px] md:mt-[-29px] xl:mt-[-22px]'>
           <h3 className="font-bold mb-2">Latest News</h3>
           <ul>
             <li>Contact Us</li>

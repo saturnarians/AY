@@ -1,9 +1,6 @@
 
 import React from 'react';
 import Custom from '../assets/custom.jpg';
-import Header from '../components/Header';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 
 const teamMembers = [
   {
@@ -95,8 +92,6 @@ const teamMembers = [
 const AboutUs = () => {
   return (
     <div className="">
-      <Header/>
-      <Navbar />
     <div className="relative">
     <img src={Custom} alt="About Us" className='bg-cover w-full h-[600px]' />
     <div className=" absolute xl:top-[20px] top-[20px] mx-2 xl:mx-6 text-white leading-tight tracking-tighter 2xl:leading-normal 2xl:tracking-normal ">
@@ -122,7 +117,6 @@ const AboutUs = () => {
           </div>
         ))}
       </div>
-      <Footer />
     </div>
   );
 };
