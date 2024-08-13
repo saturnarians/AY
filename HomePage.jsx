@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "../components/Header";
-import Navbar from "../components/Navbar";
-import HeroSlider from "../components/HeroSlider";
-import QuoteForm from "../components/QuoteForm";
-import Footer from "../components/Footer";
-import OurServices from "../components/OurServices";
-import AboutSection from "../components/AboutSection";
+import Header from "./src/components/Header";
+import Navbar from "./src/components/Navbar";
+import HeroSlider from "./src/components/HeroSlider";
+import QuoteForm from "./src/components/QuoteForm";
+import Footer from "./src/components/Footer";
+import OurServices from "./src/components/OurServices";
+import AboutSection from "./src/components/AboutSection";
 
 
 

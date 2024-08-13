@@ -29,6 +29,9 @@ export default defineConfig({
             type: 'image/png',
           },
         ],
+  define: {
+          'process.env': {},
+        },
       },
     }),
   ],

@@ -8,18 +8,16 @@ import ContactUs from './pages/ContactUs';
 import { Route, Routes } from "react-router-dom";
 
 const App = () => {
-    return (
-
-
-<Routes>
-<Route index element={<HomePage />} /> 
-{/* errorElement= {<ErrorPage />} */}
-<Route path="AboutUs" element={<AboutUs/>} />
-<Route path="Clients" element={<Clients/>} />
-<Route path="ContactUs" element={<ContactUs/>} />
-<Route path="LatestNews" element={<LatestNews/>} />
-<Route path="/" element={<Routes />} />
-</Routes>
-);
+  return (
+    <Routes>
+      <Route index element={<HomePage />} />
+      {/* errorElement= {<ErrorPage />} */}
+      <Route path="AboutUs" element={<AboutUs />} />
+      <Route path="Clients" element={<Clients />} />
+      <Route path="ContactUs" element={<ContactUs />} />
+      <Route path="LatestNews" element={<LatestNews />} />
+    </Routes>
+  );
 };
+
 export default App;
