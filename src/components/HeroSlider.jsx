@@ -58,7 +58,7 @@ const HeroSlider = () => {
         <ul style={{ marginTop: 10 }}>{dots}</ul>
       </div>
     ),
-    customPaging: (i) => (
+    customPaging: i => (
       <div
         style={{
           width: '8px',
@@ -71,31 +71,31 @@ const HeroSlider = () => {
   };
 
   return (
-    <div className="relative h-full">
+    <div className="relative h-full bg-gray-100">
       <Slider {...settings}>
         <div className='relative'>
           <p className='font-semibold absolute left-0 top-0 m-2 p-2 leading-tight tracking-tight text-wrap 2xl:text-[50px] 3xl:text-[60px] xl:text-[40px]'>Anita Harris</p>
-          <img src={slide_1} alt="Anita Harris" />
+          <img className="bg-cover w-[] h-[450px]" src={slide_1} alt="Anita Harris" />
         </div>
         <div className='relative'>
           <p className='w-auto font-semibold absolute left-0 top-0 m-2 p-2 leading-tight tracking-tight text-wrap 2xl:text-[50px] 3xl:text-[60px] xl:text-[40px]'>Caprice Bourret</p>
-          <img src={slide_2} alt="Caprice Bourret" />
+          <img className="bg-cover w-[] h-[450px]" src={slide_2} alt="Caprice Bourret" />
         </div>
         <div className='relative'>
           <p className='w-auto font-semibold absolute left-0 top-0 m-2 p-2 leading-tight tracking-tight text-wrap 2xl:text-[50px] 3xl:text-[60px] xl:text-[40px]'>Jean Christophe Novelli</p>
-          <img src={slide_3} alt="Jean-Christophe-Novelli" />
+          <img className="bg-cover w-[] h-[450px]" src={slide_3} alt="Jean-Christophe-Novelli" />
         </div>
         <div className='relative'>
           <p className='w-auto font-semibold absolute left-0 top-0 m-2 p-2 leading-tight tracking-tight text-wrap 2xl:text-[50px] 3xl:text-[60px] xl:text-[40px]'>Nicky Clarke</p>
-          <img src={slide_4} alt="Nicky Clarke" />
+          <img className="bg-cover w-[] h-[450px]" src={slide_4} alt="Nicky Clarke" />
         </div>
         <div className='relative'>
           <p className='w-auto font-semibold absolute left-0 top-0 m-2 p-2 leading-tight tracking-tight text-wrap 2xl:text-[50px] 3xl:text-[60px] xl:text-[40px]'>Shaun Wallace</p>
-          <img src={slide_5} alt="Shaun Wallace" />
+          <img className="bg-cover w-[] h-[450px]" src={slide_5} alt="Shaun Wallace" />
         </div>
         <div className='relative'>
           <p className='w-auto font-semibold absolute left-0 top-0 m-2 p-2 leading-tight tracking-tight text-wrap 2xl:text-[50px] 3xl:text-[60px] xl:text-[40px]'>Vicki Michelle</p>
-          <img src={slide_6} alt="Vicki-Michelle" />
+          <img className="bg-cover w-[] h-[450px]" src={slide_6} alt="Vicki-Michelle" />
         </div>
       </Slider>
     </div>

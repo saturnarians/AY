@@ -17,6 +17,7 @@
     "@mui/material": "^5.16.6",
     "@react-google-maps/api": "^2.19.3",
     "@tawk.to/tawk-messenger-react": "^2.0.2",
+    "@vis.gl/react-google-maps": "^1.1.0",
     "axios": "^1.7.3",
     "emailjs-com": "^3.2.0",
     "react": "^18.3.1",

@@ -17,11 +17,13 @@ const Navbar = () => {
 
   return (
     <div className="relative flex justify-between items-center px-6 bg-gray-900">
-      <img src={Logo} alt="Active Management" className="mx-1 w-[60px] h-[60px]" />
+      <RouterLink to={'./'}>
+      <img src={Logo} alt="Active Management" className="mx-1 xl:mx-4 2xl:mx-6 w-[80px] h-[80px] object-contain" />
+      </RouterLink>
 
       {/* Mobile Menu Button */}
       <div className="flex 2xl:hidden">
-        <span onClick={toggleMobileMenu} className="text-white text-2xl">
+        <span onClick={toggleMobileMenu} className="text-white text-2xl xl:mx-4">
           <FaBars />
         </span>
       </div>
@@ -30,7 +32,7 @@ const Navbar = () => {
       <nav className="hidden 2xl:flex text-white p-4 space-x-4 justify-end items-center mx-4">
         <div className="flex space-x-4 items-center">
         <RouterLink to={'./'}>Home</RouterLink>
-          <div className="relative group">
+          {/* <div className="relative group">
             <RouterLink to={'./Clients'} className="flex items-center space-x-1">
               <span>Clients</span>
               <FaChevronDown className="text-sm" />
@@ -42,7 +44,7 @@ const Navbar = () => {
             <RouterLink to={'./Clients'} className="block px-4 py-2 hover:bg-gray-700">Tennis</RouterLink>
             <RouterLink to={'./Clients'} className="block px-4 py-2 hover:bg-gray-700">Boxing</RouterLink>
             </div>
-          </div>
+          </div> */}
           {/* <RouterLink to={'./LatestNews'}>Latest News</RouterLink> */}
           <RouterLink to={'./AboutUs'}>About Us</RouterLink>
           <RouterLink to={'./ContactUs'}>Contact Us</RouterLink>
@@ -55,7 +57,7 @@ const Navbar = () => {
         <div className="2xl:hidden absolute top-full left-0 w-full bg-gray-800 text-white z-50">
           <div className="flex flex-col space-y-2 p-4">
           <RouterLink to={'./'}>Home</RouterLink>
-            <div className="relative">
+            {/* <div className="relative">
               <button
                 onClick={toggleClientsMenu}
                 className="flex items-center justify-between w-full text-left"
@@ -72,7 +74,7 @@ const Navbar = () => {
             <RouterLink to={'./Clients'} className="block px-4 py-2 hover:bg-gray-700">Boxing</RouterLink>
                 </div>
               )}
-            </div>
+            </div> */}
           {/* <RouterLink to={'./LatestNews'}>Latest News</RouterLink> */}
           <RouterLink to={'./AboutUs'}>About Us</RouterLink>
           <RouterLink to={'./ContactUs'}>Contact Us</RouterLink>

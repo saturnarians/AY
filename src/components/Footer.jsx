@@ -1,14 +1,19 @@
 import React from 'react';
 import { FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
+import {Link as RouterLink} from 'react-router-dom';
+import Logo from "../assets/ActiveLogo.webp";
 
 const Footer = () => {
   return (
     <footer className="h-full bg-gray-800 text-white p-8 ">
-      <div className="grid grid-cols-2 xl:grid-cols-4 gap-4">
+      <RouterLink to={'./'}>
+      <img src={Logo} alt="Active Management" className="mx-1 xl:mx-4 2xl:mx-6 w-[70px] h-[70px] object-contain" />
+      </RouterLink>
+      <div className="grid grid-cols-2 xl:grid-cols-4 gap-2 xl:ml-[98px]">
         <div className='place-self-center'>
           <h3 className="font-bold mb-2">About Us</h3>
           <ul>
-            <li>Meet the Team</li>
+            <li>Meet98he Team</li>
             <li>Terms & Conditions</li>
             <li>Privacy Policy</li>
           </ul>
@@ -20,7 +25,7 @@ const Footer = () => {
             <li>020 3198 2200</li>
           </ul>
         </div>
-        <div className="col-span-2 place-self-center xl:mt-[-52px]">
+        <div className="col-span-2 place-self-center xl:mr-[98px] xl:mt-[-52px]">
           <h3 className="font-bold mb-2">Connect with Us</h3>
           <div className="flex space-x-4">
             <a href="#twitter" aria-label="Twitter">

@@ -1,7 +1,7 @@
 import React from 'react';
 import QuoteForm from '../components/QuoteForm';
 import Contact from '../assets/contact.jpg';
-import Map from '../components/Map';
+import GoogleMap from '../components/Map';
 
 const ContactUs = () => {
   
@@ -17,7 +17,7 @@ const ContactUs = () => {
       <div className=''>
       <QuoteForm />
       </div>
-      <Map />
+      <GoogleMap />
     </div>
 );
 };
