@@ -21,11 +21,12 @@ const QuoteForm = () => {
     e.preventDefault();
 
     emailjs.send(
-      import.meta.env.REACT_APP_EMAILJS_SERVICE_ID,
-      import.meta.env.REACT_APP_EMAILJS_TEMPLATE_ID,
-      formData,
-      import.meta.env.REACT_APP_EMAILJS_PUBLIC_KEY,
-    )
+      'service_qdht8so',
+      'template_gzlw7b8',
+      formData, {
+        publicKey:
+      'VJi69gQ80JUFaOk7A'
+    })
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);
       alert('Your enquiry has been sent successfully!');
