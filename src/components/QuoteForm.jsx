@@ -24,7 +24,7 @@ const QuoteForm = () => {
       import.meta.env.REACT_APP_EMAILJS_SERVICE_ID,
       import.meta.env.REACT_APP_EMAILJS_TEMPLATE_ID,
       formData,
-      import.meta.env.REACT_APP_EMAILJS_USER_ID
+      import.meta.env.REACT_APP_EMAILJS_PUBLIC_KEY
     )
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);
