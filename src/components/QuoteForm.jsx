@@ -20,14 +20,20 @@ const QuoteForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.send("service_g1tdkb9","template_44zhkel", formData, 'VJi69gQ80JUFaOk7A')
-      .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
-        alert('Your enquiry has been sent successfully!');
-      }, (err) => {
-        console.log('FAILED...', err);
-        alert('Failed to send your enquiry. Please try again.');
-      });
+    emailjs.send(
+      import.meta.env.REACT_APP_EMAILJS_SERVICE_ID,
+      import.meta.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+      formData,
+      import.meta.env.REACT_APP_EMAILJS_USER_ID
+    )
+    .then((response) => {
+      console.log('SUCCESS!', response.status, response.text);
+      alert('Your enquiry has been sent successfully!');
+    }, (err) => {
+      console.log('FAILED...', err);
+      alert('Failed to send your enquiry. Please try again.');
+    });
+    
 
     setFormData({
       name: '',

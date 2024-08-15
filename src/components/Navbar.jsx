@@ -5,15 +5,15 @@ import {Link as RouterLink} from 'react-router-dom';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [clientsMenuOpen, setClientsMenuOpen] = useState(false);
+  // const [clientsMenuOpen, setClientsMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
 
-  const toggleClientsMenu = () => {
-    setClientsMenuOpen(!clientsMenuOpen);
-  };
+  // const toggleClientsMenu = () => {
+  //   setClientsMenuOpen(!clientsMenuOpen);
+  // };
 
   return (
     <div className="relative flex justify-between items-center px-6 bg-gray-900">
