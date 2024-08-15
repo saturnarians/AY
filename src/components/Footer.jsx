@@ -13,7 +13,7 @@ const Footer = () => {
         <div className='place-self-center'>
           <h3 className="font-bold mb-2">About Us</h3>
           <ul>
-            <li>Meet98he Team</li>
+            <li>Meet the Team</li>
             <li>Terms & Conditions</li>
             <li>Privacy Policy</li>
           </ul>
