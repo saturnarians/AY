@@ -20,12 +20,12 @@ const QuoteForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.send{
+    emailjs.send{(
       import.meta.env.REACT_APP_EMAILJS_SERVICE_ID,
       import.meta.env.REACT_APP_EMAILJS_TEMPLATE_ID,
       formData,
       import.meta.env.REACT_APP_EMAILJS_PUBLIC_KEY,
-    }
+    )}
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);
       alert('Your enquiry has been sent successfully!');
