@@ -28,18 +28,7 @@ const QuoteForm = () => {
     }
 
     // Send email using EmailJS
-    emailjs.sendForm(
-      'service_qdht8so',  // Service ID
-      'template_gzlw7b8', // Template ID
-      {
-        name: formData.name,
-        telephone: formData.telephone,
-        enquiryType: formData.enquiryType,
-        email: formData.email,
-        enquiryDetails: formData.enquiryDetails,
-      },
-      'VJi69gQ80JUFaOk7A'  // Public Key
-    )
+    emailjs.sendForm("service_xsqf4br", "template_79b3mwl", formData, "VJi69gQ80JUFaOk7A")
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);
       alert('Your enquiry has been sent successfully!');
