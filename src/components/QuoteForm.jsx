@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState,useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { MdOutlineMail } from "react-icons/md";
 import { MdAddIcCall } from "react-icons/md";
 import { IoTimeOutline } from "react-icons/io5";
 
 const QuoteForm = () => {
+  const form = useRef();
   const [formData, setFormData] = useState({
     name: '',
     telephone: '',
@@ -27,7 +28,7 @@ const QuoteForm = () => {
     }
 
     // Send email using EmailJS
-    emailjs.send(
+    emailjs.sendForm(
       'service_qdht8so',  // Service ID
       'template_gzlw7b8', // Template ID
       {
@@ -65,7 +66,7 @@ const QuoteForm = () => {
         *Unfortunately, we are unable to forward any mail to our clients. Please note, any unsolicited mail will NOT be returned and will be disposed of accordingly.
       </p>
       <div className="place-self-center flex flex-col xl:flex-row justify-between items-center space-x-8 w-full max-w-6xl mx-6">
-        <form onSubmit={handleSubmit} className="space-y-4 w-[70%]">
+        <form ref={form} onSubmit={handleSubmit} className="space-y-4 w-[70%]">
           <div className=''>
             <div className="flex flex-col 2xl:flex-row gap-4 mb-4">
               <div className="flex flex-col w-full">
@@ -138,6 +139,7 @@ const QuoteForm = () => {
           </div>
           <button
             type="submit"
+            value="Send"
             className="bg-red-500 text-white p-2 rounded-md hover:bg-blue-500"
           >
             SUBMIT FORM
