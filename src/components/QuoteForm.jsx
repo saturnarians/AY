@@ -5,7 +5,6 @@ import { MdAddIcCall } from "react-icons/md";
 import { IoTimeOutline } from "react-icons/io5";
 
 const QuoteForm = () => {
-  const form = useRef();
   const [formData, setFormData] = useState({
     name: '',
     telephone: '',
@@ -55,7 +54,7 @@ const QuoteForm = () => {
         *Unfortunately, we are unable to forward any mail to our clients. Please note, any unsolicited mail will NOT be returned and will be disposed of accordingly.
       </p>
       <div className="place-self-center flex flex-col xl:flex-row justify-between items-center space-x-8 w-full max-w-6xl mx-6">
-        <form ref={form} onSubmit={handleSubmit} className="space-y-4 w-[70%]">
+        <form onSubmit={handleSubmit} className="space-y-4 w-[70%]">
           <div className=''>
             <div className="flex flex-col 2xl:flex-row gap-4 mb-4">
               <div className="flex flex-col w-full">
