@@ -27,7 +27,7 @@ const QuoteForm = () => {
     }
 
     // Send email using EmailJS
-    emailjs.send("service_xsqf4br", "template_79b3mwl", formData, "VJi69gQ80JUFaOk7A")
+    emailjs.send("service_qdht8so","template_gzlw7b8", formData, "pCCbTOWNjr3SbaYB8")
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);
       alert('Your enquiry has been sent successfully!');
