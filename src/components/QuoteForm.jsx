@@ -78,12 +78,12 @@ const QuoteForm = () => {
                   className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
                 >
                   <option value="" disabled>Select an option</option>
-                  <option value="Book a Celebrity">Book an appointment</option>
-                  <option value="Availability Check">Meet and greet</option>
-                  <option value="Charity Enquiry">Charity support</option>
+                  <option value="Book an appointment">Book an appointment</option>
+                  <option value="Book for vacation">Book for vacation</option>
+                  <option value="Charity support">Charity support</option>
                   <option value="Interview Request">Interview Request</option>
-                  <option value="Payment Enquiry">Payment Enquiry</option>
-                  <option value="Personal Appearance Enquiry">Ask for retirement</option>
+                  <option value="Meet and greet">Meet and greet</option>
+                  <option value="Ask for retirement">Ask for retirement</option>
                 </select>
               </div>
             </div>
