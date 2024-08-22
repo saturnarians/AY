@@ -28,7 +28,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Button */}
       <div className="flex 2xl:hidden">
-      <div className='bg-red-700 text-white rounded-md mr-[30px] py-[4px]'><LanguageSelector /></div>
+      <div className='bg-red-700 text-white rounded-md mr-[30px] px-[10px] py-[4px]'><LanguageSelector /></div>
         <span onClick={toggleMobileMenu} className="text-white text-2xl xl:mx-4">
           <FaBars />
         </span>

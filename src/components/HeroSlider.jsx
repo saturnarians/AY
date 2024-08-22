@@ -59,7 +59,7 @@ const HeroSlider = () => {
       <Slider ref={sliderRef} {...settings}>
         <div className='relative'>
           <p className='text-gray-900 w-auto xl:w-[800px] font-bold absolute left-0 top-[0] lg:top-0 mx-10 mt-12 p-2 leading-tight tracking-tight text-wrap text-[40px] 2xl:text-[60px] 3xl:text-[70px] xl:text-[50px]'>{t('hero.line1')}</p>
-          <p className="mx-12 text-red-900 text-[19px] xl:text-[40px] font-semibold absolute left-0 top-[85px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[120px] leading-tight tracking-tight text-wrap">
+          <p className="mx-12 text-red-900 text-[19px] xl:text-[40px] font-semibold absolute left-0 hidden xl:block top-[85px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[120px] leading-tight tracking-tight text-wrap">
             {t('hero.line2')}
           </p>
           <p className="mx-12 text-red-900 text-[13px] xl:text-[30px] font-semibold absolute left-0 top-[25px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[4px] xl:mt-[170px] leading-tight tracking-tight text-wrap">
@@ -70,7 +70,7 @@ const HeroSlider = () => {
 
         <div className='relative'>
           <p className='text-gray-900 w-auto xl:w-[800px] font-bold absolute left-0 top-[0] lg:top-0 mx-10 mt-12 p-2 leading-tight tracking-tight text-wrap text-[40px] 2xl:text-[60px] 3xl:text-[70px] xl:text-[50px]'>{t('hero.line1')}</p>
-          <p className="mx-12 text-red-900 text-[19px] xl:text-[40px] font-semibold absolute left-0 top-[85px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[120px] leading-tight tracking-tight text-wrap">
+          <p className="mx-12 text-red-900 text-[19px] xl:text-[40px] font-semibold absolute left-0 hidden xl:block top-[85px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[120px] leading-tight tracking-tight text-wrap">
             {t('hero.line4')}
           </p>
           <p className="mx-12 text-red-900 text-[13px] xl:text-[30px] font-semibold absolute left-0 top-[25px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[4px] xl:mt-[170px] leading-tight tracking-tight text-wrap">
@@ -81,7 +81,7 @@ const HeroSlider = () => {
 
         <div className='relative'>
           <p className='text-gray-900 w-auto xl:w-[800px] font-bold absolute left-0 top-[0] lg:top-0 mx-10 mt-12 p-2 leading-tight tracking-tight text-wrap text-[40px] 2xl:text-[60px] 3xl:text-[70px] xl:text-[50px]'>{t('hero.line1')}</p>
-          <p className="mx-12 text-red-900 text-[19px] xl:text-[40px] font-semibold absolute left-0 top-[85px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[120px] leading-tight tracking-tight text-wrap">
+          <p className="mx-12 text-red-900 text-[19px] xl:text-[40px] font-semibold absolute left-0 hidden xl:block top-[85px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[120px] leading-tight tracking-tight text-wrap">
             {t('hero.line6')}
           </p>
           <p className="mx-12 text-red-900 text-[13px] xl:text-[30px] font-semibold absolute left-0 top-[25px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[4px] xl:mt-[170px] leading-tight tracking-tight text-wrap">
@@ -92,7 +92,7 @@ const HeroSlider = () => {
 
         <div className='relative'>
           <p className='text-gray-900 w-auto xl:w-[800px] font-bold absolute left-0 top-[0] lg:top-0 mx-10 mt-12 p-2 leading-tight tracking-tight text-wrap text-[40px] 2xl:text-[60px] 3xl:text-[70px] xl:text-[50px]'>{t('hero.line1')}</p>
-          <p className="mx-12 text-red-900 text-[19px] xl:text-[40px] font-semibold absolute left-0 top-[85px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[120px] leading-tight tracking-tight text-wrap">
+          <p className="mx-12 text-red-900 text-[19px] xl:text-[40px] font-semibold absolute left-0 hidden xl:block top-[85px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[120px] leading-tight tracking-tight text-wrap">
             {t('hero.line8')}
           </p>
           <p className="mx-12 text-red-900 text-[13px] xl:text-[30px] font-semibold absolute left-0 top-[25px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[4px] xl:mt-[170px] leading-tight tracking-tight text-wrap">
@@ -103,7 +103,7 @@ const HeroSlider = () => {
 
         <div className='relative'>
           <p className='text-gray-900 w-auto xl:w-[800px] font-bold absolute left-0 top-[0] lg:top-0 mx-10 mt-12 p-2 leading-tight tracking-tight text-wrap text-[40px] 2xl:text-[60px] 3xl:text-[70px] xl:text-[50px]'>{t('hero.line1')}</p>
-          <p className="mx-12 text-red-900 text-[19px] xl:text-[40px] font-semibold absolute left-0 top-[85px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[120px] leading-tight tracking-tight text-wrap">
+          <p className="mx-12 text-red-900 text-[19px] xl:text-[40px] font-semibold absolute left-0 hidden xl:block top-[85px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[120px] leading-tight tracking-tight text-wrap">
             {t('hero.line10')}
           </p>
           <p className="mx-12 text-red-900 text-[13px] xl:text-[30px] font-semibold absolute left-0 top-[25px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[4px] xl:mt-[170px] leading-tight tracking-tight text-wrap">
