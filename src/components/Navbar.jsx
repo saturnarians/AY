@@ -28,7 +28,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Button */}
       <div className="flex 2xl:hidden">
-      <div className='text-white'><LanguageSelector /></div>
+      <div className='bg-red-700 text-white rounded-md mr-[30px] py-[4px]'><LanguageSelector /></div>
         <span onClick={toggleMobileMenu} className="text-white text-2xl xl:mx-4">
           <FaBars />
         </span>
@@ -54,7 +54,7 @@ const Navbar = () => {
           {/* <RouterLink to={'./LatestNews'}>Latest News</RouterLink> */}
           <RouterLink to={'./AboutUs'} className='hover:text-red-700'>{t('navbar.About')}</RouterLink>
           <RouterLink to={'./ContactUs'} className='hover:text-red-700'>{t('navbar.Contact')}</RouterLink>
-          <div className='hover:text-red-700'><LanguageSelector /></div>
+          <div className='bg-red-700 text-white rounded-md mr-[30px] py-[4px] hover:text-blue-900'><LanguageSelector /></div>
           
         </div>
         {/* <input type="text" placeholder="Search" className="bg-gray-700 text-white p-1 rounded" /> */}

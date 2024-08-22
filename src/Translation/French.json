@@ -141,19 +141,19 @@
     "line7": "Connectez-vous avec nous",
     "line8": "Copyright © 2024 Active Celeb Agents | Tous Droits Réservés | Site Web Conçu & Maintenu par Be My Media"
   },
-  "hero": {
-    "line1": "Mettre en valeur le meilleur de nos clients.",
-    "line2": "Relations Solides:",
-    "line3": "Cultiver des connexions clés dans l'industrie...",
-    "line4": "Image Personnelle:",
-    "line5": "Maintenir une image cohérente et authentique...",
-    "line6": "Gestion de Crise:",
-    "line7": "Gérer rapidement la publicité négative...",
-    "line8": "Image Personnelle:",
-    "line9": "Vivre des collaborations bénéfiques sécurisées...",
-    "line10": "Image Personnelle:",
-    "line11": "Vivre des collaborations bénéfiques sécurisées...",
-    "line12": "Présence Numérique:",
-    "line13": "Optimiser l'engagement sur les médias sociaux..."
-  }
+
+    "hero": {
+      "line1": "Mettre en valeur nos clients.",
+      "line2": "Relations Solides:",
+      "line3": "Cultiver des connexions clés dans l'industrie...",
+      "line4": "Image de Marque:",
+      "line5": "Maintenir une image cohérente et authentique...",
+      "line6": "Gestion de Crise:",
+      "line7": "Gérer rapidement la publicité négative...",
+      "line8": "Gestion de Réputation:",
+      "line9": "Vivre des collaborations sécurisées et bénéfiques...",
+      "line10": "Présence Numérique:",
+      "line11": "Optimiser l'engagement sur les réseaux sociaux..."
+    }
 }
+
