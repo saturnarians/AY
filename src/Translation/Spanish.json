@@ -1,0 +1,160 @@
+{
+    "navbar": {
+      "About": "Acerca de nosotros",
+      "Contact": "Contacto",
+      "Home": "Inicio"
+    },
+    "aboutPage": {
+      "line1": "Acerca de nosotros",
+      "line2": "Nuestro lema",
+      "line3": "Destacar lo mejor de nuestros clientes.",
+      "line4": "Nuestro objetivo",
+      "line5": "Proporcionar un servicio de primer nivel.",
+      "line6": "Nuestros logros",
+      "line7": "Hemos gestionado con éxito a más de 100 celebridades.",
+      "line8": "¡Bienvenido a nuestra distinguida agencia de celebridades! Estamos comprometidos a brindar resultados excepcionales mientras mantenemos la máxima privacidad y confidencialidad para nuestros clientes. Nuestro equipo de agentes de celebridades profesionales pero accesibles se dedica a ofrecer una experiencia de gestión fluida, haciendo que la contratación de una celebridad sea agradable.",
+      "line9": "Nuestra empresa, fundada por el respetado CEO David Hahn, cuenta con más de cuarenta años de experiencia en la industria de los medios de comunicación. David tiene un impresionante historial en televisión y música, incluyendo Sky Television y roles como ingeniero de sonido para CBS, DJM y el sello Apple de The Beatles. En Active Celeb Agents, estamos dedicados a asesorar y guiar a nuestros clientes a través de los diferentes caminos del mundo del entretenimiento. Las divisiones de nuestra agencia trabajan en conjunto para potenciar las habilidades y fortalezas de cada cliente de manera personalizada.",
+      "line10": "Nuestra agencia de gestión de celebridades está profundamente involucrada en la industria de los medios de comunicación, con un talentoso equipo de profesionales con una amplia experiencia y conocimientos en gestión de celebridades, relaciones públicas, endosos de celebridades, medios de comunicación, eventos, marketing de marca y reservas de giras teatrales. Te invitamos a unirte a nuestra familia de clientes satisfechos y esperamos ofrecerte una experiencia de primer nivel adaptada a tus necesidades.",
+      "line11": "Conoce al equipo",
+      "teamMembers": {
+        "davidHarry": {
+          "title": "CEO",
+          "description": "Fundado por el CEO David Hahn, la empresa cuenta con más de cuarenta años de experiencia en la industria de los medios de comunicación. David tiene un impresionante historial en televisión y música, incluyendo Sky TV y roles como ingeniero de sonido para CBS, DJM y el sello Apple de The Beatles."
+        },
+        "sueHarry": {
+          "title": "Agente y Gerente de Reservas",
+          "description": "Sue lidera el equipo de televisión y empresas, con un profundo conocimiento de la industria musical y televisiva. Su carrera comenzó en Chappell’s Music Publishing y trabajó en A&R durante años, colaborando con artistas como Barry Manilow y The Communards."
+        },
+        "martinAstley": {
+          "title": "Gerente de IT",
+          "description": "Martin es un experto en seguridad informática e infraestructura, con experiencia en la gestión de celebridades y organizaciones de alto perfil. Él maneja las cuentas de redes sociales, el sitio web, la tienda en línea, las campañas de marketing, entre otros."
+        },
+        "georgiaWade": {
+          "title": "Asistente de Gestión",
+          "description": "Georgia combina creatividad y eficiencia en nuestro equipo. Con un sólido trasfondo en la industria de la moda, aporta una perspectiva fresca y soluciones innovadoras al entorno empresarial."
+        },
+        "maliaEngland": {
+          "title": "Gerente de Teatro y Actuación",
+          "description": "Malia comenzó su carrera en el entretenimiento a los 18 años, formándose en la Birmingham School of Speech Training and Dramatic Art. Ella trabaja con clientes de alto perfil, manejando reservas teatrales y giras."
+        },
+        "sallyBerkins": {
+          "title": "Gerente de Relaciones con Artistas",
+          "description": "Sally King comenzó su viaje en la industria del entretenimiento como bailarina en Young Generation. Ahora, es la responsable de relaciones con artistas y contratación de actores en Active Agents."
+        },
+        "ruth": {
+          "title": "Gerente de Publicidad y Redes Sociales",
+          "description": "Ruth utiliza su profundo conocimiento de la publicidad digital para crear y ejecutar campañas publicitarias que produzcan resultados efectivos. Ella se especializa en desarrollar estrategias publicitarias dirigidas para asegurar una amplia cobertura y participación."
+        },
+        "corey": {
+          "title": "Director de Diseño Gráfico",
+          "description": "Corey es nuestro maestro creativo visual, encargado de todos los proyectos de diseño gráfico, asegurando que cada proyecto cumpla con nuestros objetivos de marketing y resuene con la audiencia."
+        },
+        "connor": {
+          "title": "Diseñador Gráfico",
+          "description": "Connor es un talentoso diseñador gráfico con un sólido trasfondo en artes visuales. Él ha jugado un papel clave en el desarrollo de nuestra identidad visual de marca, asegurando que nuestro contenido visual sea atractivo y funcional."
+        },
+        "anro": {
+          "title": "Diseñador Gráfico",
+          "description": "Anro es un diseñador gráfico experimentado, conocido por sus soluciones de diseño innovadoras. Él trabaja en colaboración con los equipos de marketing y contenido para crear gráficos impactantes que se alineen con nuestra identidad de marca."
+        },
+        "shannon": {
+          "title": "Gerente de Marketing",
+          "description": "Shannon es una dinámica gerente de marketing con una sólida experiencia en marketing digital. Ella desarrolla e implementa estrategias de marketing que fomentan la participación y el crecimiento, asegurando que nuestras iniciativas de marketing sean impactantes y relevantes."
+        },
+        "michaela": {
+          "title": "Administrador de Marketing",
+          "description": "Michaela asegura el buen funcionamiento de nuestras campañas de marketing. Su apoyo es esencial para mantener flujos de trabajo eficientes, permitiendo que nuestro equipo se concentre en el trabajo creativo y estratégico."
+        },
+        "peter": {
+          "title": "Gerente de SEO",
+          "description": "Peter es el núcleo de nuestro trabajo de SEO. Con una amplia experiencia en estrategias de SEO, ha mejorado nuestra visibilidad en línea y el tráfico orgánico, asegurando que nuestro sitio web tenga una alta clasificación en los motores de búsqueda."
+        },
+        "bradley": {
+          "title": "Diseñador Gráfico",
+          "description": "Bradley es conocido por su creatividad excepcional y soluciones de diseño innovadoras. Sus contribuciones a nuestro contenido visual son significativas, asegurando que nuestro diseño sea atractivo y comunique eficazmente nuestro mensaje de marca."
+        }
+      }
+    },
+    "contactPage": {
+      "line1": "Contacto",
+      "line2": "Para cualquier consulta sobre nuestros servicios o si necesitas ayuda para identificar el talento adecuado para tu proyecto, envíanos un correo electrónico a info@activebmanagement.com o completa nuestro formulario de solicitud. Nuestro agente se pondrá en contacto contigo lo antes posible."
+    },
+    "quoteForm": {
+      "line1": "¡Solicita hoy mismo!",
+      "line2": "*Lo sentimos, no podemos reenviar correos a los clientes. Ten en cuenta que cualquier correo no solicitado no será devuelto y será procesado.",
+      "line3": "Tu nombre",
+      "line4": "¿Cuál es tu solicitud?",
+      "line5": "Selecciona una opción",
+      "line6": "Reserva",
+      "line7": "Reserva de vacaciones",
+      "line8": "Apoyo benéfico",
+      "line9": "Solicitud de entrevista",
+      "line9y": "Encuentros y saludos",
+      "line10": "Solicitud de retiro",
+      "line11": "Número de teléfono",
+      "line11y": "Dirección de correo electrónico",
+      "line12": "Por favor, cuéntanos sobre tu solicitud",
+      "line13": "Enviar formulario",
+      "line14": "Horas de operación",
+      "line15": "Lunes: 9:00-18:00",
+      "line16": "Martes: 9:00-18:00",
+      "line17": "Miércoles: 9:00-18:00",
+      "line18": "Jueves: 9:00-18:00",
+      "line19": "Viernes: 9:00-18:00"
+    },
+    "aboutSection": {
+      "line1": "Estamos comprometidos a brindar el mejor servicio a nuestros clientes, con un enfoque en la calidad, integridad y excelencia.",
+      "line2": "Nuestra misión es ofrecer un servicio de primer nivel que supere las expectativas de nuestros clientes y construir relaciones duraderas basadas en la confianza.",
+      "line3": "Nuestra visión es ser líderes en la industria, estableciendo el estándar para la calidad del servicio y la satisfacción del cliente.",
+      "line4": "Valoramos la integridad, la excelencia y la dedicación, operando siempre con los más altos estándares éticos.",
+      "line5": "Nuestra agencia de gestión de celebridades está profundamente involucrada en la industria de los medios de comunicación, con un talentoso equipo de profesionales con una amplia experiencia y conocimientos en gestión de celebridades, relaciones públicas, endosos de celebridades, medios de comunicación, eventos, marketing de marca y reservas de giras teatrales. Te invitamos a unirte a nuestra familia de clientes satisfechos y esperamos ofrecerte una experiencia de primer nivel adaptada a tus necesidades.",
+      "line6": "¡Bienvenido a nuestra distinguida agencia de celebridades! Estamos comprometidos a brindar resultados excepcionales mientras mantenemos la máxima privacidad y confidencialidad para nuestros clientes. Nuestro equipo de agentes de celebridades profesionales pero accesibles se dedica a ofrecer una experiencia de gestión fluida, haciendo que la contratación de una celebridad sea agradable.",
+      "line7": "Nuestra empresa, fundada por el respetado CEO David Hahn, cuenta con más de cuarenta años de experiencia en la industria de los medios de comunicación. David tiene un impresionante historial en televisión y música, incluyendo Sky Television y roles como ingeniero de sonido para CBS, DJM y el sello Apple de The Beatles. En Active Celeb Agents, estamos dedicados a asesorar y guiar a nuestros clientes a través de los diferentes caminos del mundo del entretenimiento. Las divisiones de nuestra agencia trabajan en conjunto para potenciar las habilidades y fortalezas de cada cliente de manera personalizada.",
+      "Header1": "Acerca de nosotros",
+      "Header2": "Nuestra visión",
+      "Header3": "Nuestra misión",
+      "Header4": "Nuestros valores"
+    },
+    "serviceComp": {
+      "line1": "Nuestros Servicios",
+      "line2": "Ofrecemos una gama completa de servicios diseñados para mejorar y gestionar la imagen pública de nuestras celebridades clientes.",
+      "line3": "Relaciones Públicas",
+      "line4": "Nos especializamos en la representación de celebridades y en la gestión de su imagen pública. Nuestros servicios incluyen la coordinación de entrevistas y apariciones, gestión de redes sociales y manejo de consultas de medios.",
+      "line5": "Reservas de Celebridades y Eventos",
+      "line6": "Simplificamos el proceso de reserva de celebridades para eventos de todo tipo, brindando una experiencia fluida para todos los involucrados.",
+      "line7": "Entrevistas",
+      "line8": "Estamos encantados de facilitar entrevistas con nuestras destacadas celebridades, asegurando una experiencia colaborativa y productiva.",
+      "line9": "Apariciones Públicas",
+      "line10": "Somos expertos en organizar una variedad de eventos, incluyendo conferencias, firmas de autógrafos, conciertos y apariciones en alfombras rojas, brindando una experiencia sin problemas para nuestros clientes."
+    },
+    "map": {
+      "line1": "Título del marcador",
+      "line2": "Más información sobre esta ubicación."
+    },
+    "footer": {
+      "line1": "Acerca de nosotros",
+      "line2": "Conoce al equipo",
+      "line3": "Términos y condiciones",
+      "line4": "Política de privacidad",
+      "line5": "Noticias",
+      "line6": "Contáctanos",
+      "line7": "Ponerse en contacto",
+      "line8": "Copyright © 2024 Active Celeb Agents | Todos los derechos reservados | Diseño y mantenimiento del sitio web: Be My Media"
+    },
+    "hero": {
+      "line1": "Destacar lo mejor de nuestros clientes.",
+      "line2": "Relaciones clave:",
+      "line3": "Cultivar contactos clave en la industria...",
+      "line4": "Imagen Personal:",
+      "line5": "Mantener una imagen coherente y auténtica...",
+      "line6": "Gestión de Crisis:",
+      "line7": "Abordar la publicidad negativa de manera rápida...",
+      "line8": "Imagen Personal:",
+      "line9": "Disfrutar de una colaboración beneficiosa...",
+      "line10": "Imagen Personal:",
+      "line11": "Disfrutar de una colaboración beneficiosa...",
+      "line12": "Presencia Digital:",
+      "line13": "Optimizar la participación en redes sociales..."
+    }
+  }
+  

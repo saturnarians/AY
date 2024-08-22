@@ -9,8 +9,12 @@ import slide_4 from '../assets/NickyClarkeSlider.webp';
 import slide_5 from '../assets/ShaunWallace-scaled-1.webp';
 // import slide_6 from '../assets/Vicki-Michelle.webp';
 import Typewriter from "typewriter-effect";
+import { useLanguageContext } from "../context/LanguageContext";
+
+
 
 const HeroSlider = () => {
+  const { t } = useLanguageContext();
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -36,7 +40,7 @@ const HeroSlider = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 100,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -75,22 +79,22 @@ const HeroSlider = () => {
     <div className="relative h-full bg-gray-100">
       <Slider {...settings}>
         <div className='relative'>
-          <p className='text-gray-900 w-auto xl:w-[800px] font-bold absolute left-0 top-[0] lg:top-0 mx-10 mt-12 p-2 leading-tight tracking-tight text-wrap text-[40px] 2xl:text-[60px] 3xl:text-[70px] xl:text-[50px]'>Bringing the best out of our clients.</p>
+          <p className='text-gray-900 w-auto xl:w-[800px] font-bold absolute left-0 top-[0] lg:top-0 mx-10 mt-12 p-2 leading-tight tracking-tight text-wrap text-[40px] 2xl:text-[60px] 3xl:text-[70px] xl:text-[50px]'>{t('hero.line1')}</p>
           <span className="mx-12 text-red-900 text-[19px] xl:text-[40px] font-semibold absolute left-0 top-[85px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[120px]  leading-tight tracking-tight text-wrap w-[]">
             <Typewriter
                 onInit={(typewriter) => {
                     typewriter
-                        .typeString('"Strong Relationships:"')
-                        .pauseFor(1000)
-                        .deleteAll()
-                        .typeString('"Cultivate key industry connections..."')
-                        .start();
+                    .typeString('"Personal Branding:"')
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString('" Maintain a consistent, authentic image..."')
+                    .start();
                 }}/>
           </span>
           <img className="bg-cover w-[] xl:h-[350px] 2xl:h-[450px] h-[300px]" src={slide_1} alt="Anita Harris" />
         </div>
         <div className='relative'>
-          <p className='text-gray-900 w-auto xl:w-[800px] font-bold absolute left-0 top-[0] lg:top-0 mx-10 mt-12 p-2 leading-tight tracking-tight text-wrap text-[40px] 2xl:text-[60px] 3xl:text-[70px] xl:text-[50px]'>Bringing the best out of our clients.</p>
+          <p className='text-gray-900 w-auto xl:w-[800px] font-bold absolute left-0 top-[0] lg:top-0 mx-10 mt-12 p-2 leading-tight tracking-tight text-wrap text-[40px] 2xl:text-[60px] 3xl:text-[70px] xl:text-[50px]'>  {t('hero.line1')}</p>
           <span className="mx-12 text-red-900 text-[19px] xl:text-[40px] font-semibold absolute left-0 top-[85px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[120px]  leading-tight tracking-tight text-wrap w-[]">
             <Typewriter
                 onInit={(typewriter) => {
@@ -105,7 +109,7 @@ const HeroSlider = () => {
           <img className="bg-cover w-[] xl:h-[350px] 2xl:h-[450px] h-[300px]" src={slide_2} alt="Caprice Bourret" />
         </div>
         <div className='relative'>
-          <p className='text-gray-900 w-auto xl:w-[800px] font-bold absolute left-0 top-[0] lg:top-0 mx-10 mt-12 p-2 leading-tight tracking-tight text-wrap text-[40px] 2xl:text-[60px] 3xl:text-[70px] xl:text-[50px]'>Bringing the best out of our clients.</p>
+          <p className='text-gray-900 w-auto xl:w-[800px] font-bold absolute left-0 top-[0] lg:top-0 mx-10 mt-12 p-2 leading-tight tracking-tight text-wrap text-[40px] 2xl:text-[60px] 3xl:text-[70px] xl:text-[50px]'>  {t('hero.line1')}</p>
           <span className="mx-12 text-red-900 text-[19px] xl:text-[40px] font-semibold absolute left-0 top-[85px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[120px]  leading-tight tracking-tight text-wrap w-[]">
             <Typewriter
                 onInit={(typewriter) => {
@@ -120,7 +124,7 @@ const HeroSlider = () => {
           <img className="bg-cover w-[] xl:h-[350px] 2xl:h-[450px] h-[300px]" src={slide_3} alt="Jean-Christophe-Novelli" />
         </div>
         <div className='relative'>
-          <p className='text-gray-900 w-auto xl:w-[800px] font-bold absolute left-0 top-[0] lg:top-0 mx-10 mt-12 p-2 leading-tight tracking-tight text-wrap text-[40px] 2xl:text-[60px] 3xl:text-[70px] xl:text-[50px]'>Bringing the best out of our clients.</p>
+          <p className='text-gray-900 w-auto xl:w-[800px] font-bold absolute left-0 top-[0] lg:top-0 mx-10 mt-12 p-2 leading-tight tracking-tight text-wrap text-[40px] 2xl:text-[60px] 3xl:text-[70px] xl:text-[50px]'>  {t('hero.line1')}</p>
           <span className="mx-12 text-red-900 text-[19px] xl:text-[40px] font-semibold absolute left-0 top-[85px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[120px]  leading-tight tracking-tight text-wrap w-[]">
             <Typewriter
                 onInit={(typewriter) => {
@@ -135,7 +139,7 @@ const HeroSlider = () => {
           <img className="bg-cover w-[] xl:h-[350px] 2xl:h-[450px] h-[300px]" src={slide_4} alt="Nicky Clarke" />
         </div>
         <div className='relative'>
-          <p className='text-gray-900 w-auto xl:w-[800px] font-bold absolute left-0 top-[0] lg:top-0 mx-10 mt-12 p-2 leading-tight tracking-tight text-wrap text-[40px] 2xl:text-[60px] 3xl:text-[70px] xl:text-[50px]'>Bringing the best out of our clients.</p>
+          <p className='text-gray-900 w-auto xl:w-[800px] font-bold absolute left-0 top-[0] lg:top-0 mx-10 mt-12 p-2 leading-tight tracking-tight text-wrap text-[40px] 2xl:text-[60px] 3xl:text-[70px] xl:text-[50px]'>  {t('hero.line1')}</p>
           <span className="mx-12 text-red-900 text-[19px] xl:text-[40px] font-semibold absolute left-0 top-[85px] lg:top-[40px] xl:top-[80px] 2xl:top-[98px] mt-[120px]  leading-tight tracking-tight text-wrap w-[]">
             <Typewriter
                 onInit={(typewriter) => {

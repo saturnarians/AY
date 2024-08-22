@@ -6,9 +6,13 @@ import { BrowserRouter } from "react-router-dom";
 // import { AuthProvider } from "./context/AuthContext";
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from './ServiceWorker';
+import './i18n'; // Import i18n configuration
+import { LanguageContextProvider } from "./context/LanguageContext";
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    <LanguageContextProvider>
     <Fragment>
    {/* <AuthProvider> */}
     <BrowserRouter>
@@ -16,6 +20,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </BrowserRouter>
     {/* </AuthProvider> */}
     </Fragment>
+    </LanguageContextProvider>
   </React.StrictMode>
 );
 

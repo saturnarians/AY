@@ -1,5 +1,7 @@
 import React from 'react';
 import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/api';
+import { useLanguageContext } from "../context/LanguageContext";
+
 
 // Define map container styles and center position
 const containerStyle = {
@@ -15,6 +17,11 @@ const center = {
 const Map = () => {
   
   const [selected, setSelected] = React.useState(null);
+
+  const { t } = useLanguageContext();
+
+
+
 
   return (   
     <LoadScript
@@ -35,8 +42,8 @@ const Map = () => {
             onCloseClick={() => setSelected(null)}
           >
             <div>
-              <h2>Marker Title</h2>
-              <p>Additional information about this location.</p>
+              <h2>{t('map.line1')}</h2>
+              <p>{t('map.line2')}</p>
             </div>
           </InfoWindow>
         )}

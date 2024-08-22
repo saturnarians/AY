@@ -1,0 +1,156 @@
+{
+    "navbar": {
+      "About": "Über uns",
+      "Contact": "Kontakt",
+      "Home": "Startseite"
+    },
+    "aboutPage": {
+      "line1": "Über uns",
+      "line2": "Motto",
+      "line3": "Das Beste aus unseren Kunden herausholen.",
+      "line4": "Ziele",
+      "line5": "Erstklassige Management-Dienstleistungen bieten.",
+      "line6": "Erfolge",
+      "line7": "Erfolgreich über 100 Prominente verwaltet.",
+      "line8": "Willkommen bei unserer renommierten Prominenten-Agentur! Wir sind stolz darauf, herausragende Ergebnisse zu liefern und dabei höchste Vertraulichkeit und Diskretion für unsere Kunden zu wahren. Unser Team von professionellen, aber dennoch zugänglichen Promi-Agenten ist bestrebt, eine nahtlose Management-Erfahrung zu bieten, was es zu einer Freude macht, einen Prominenten für Ihr Projekt zu sichern.",
+      "line9": "Unser Unternehmen, gegründet vom geschätzten Geschäftsführer David Hahn, bringt über vierzig Jahre Erfahrung in der Medienbranche mit. David hat eine beeindruckende Karriere im Fernsehen und in der Musik, mit Referenzen wie Sky Television und Rollen als Toningenieur für ikonische Namen wie CBS, DJM und das Apple-Label der Beatles. Bei Active Agents sind wir darauf spezialisiert, unsere Kunden durch die vielfältigen Wege der Unterhaltungswelt zu beraten und zu begleiten. Die Abteilungen unserer Celebrity Booking Agency arbeiten zusammen, um die Fähigkeiten und Stärken jedes Kunden individuell zu fördern.",
+      "line10": "Unsere Celebrity Management Agency ist tief in der Medienbranche verwurzelt und besteht aus einem talentierten Team von Fachleuten mit umfassender Erfahrung und Expertise in Celebrity Management, PR, Prominenten-Werbung, Medien, Events, Markenbewusstseinsmarketing und Theater-Tour-Buchungen. Wir laden Sie herzlich ein, Teil unserer zufriedenen Kundenfamilie zu werden und freuen uns darauf, Ihnen eine erstklassige, auf Ihre Bedürfnisse zugeschnittene Erfahrung zu bieten.",
+      "line11": "Das Team kennenlernen",
+      "teamMembers": {
+        "davidHarry": {
+          "title": "CEO",
+          "description": "Das Unternehmen, das von Geschäftsführer David Hahn gegründet wurde, ist seit über vier Jahrzehnten in der Medienbranche tätig. David selbst verfügt über unschätzbare Erfahrungen sowohl in der TV- als auch in der Musikindustrie und hat für Sky TV gearbeitet und als Aufnahmeleiter für CBS, DJM und das berühmte Beatles-Label Apple gearbeitet."
+        },
+        "sueHarry": {
+          "title": "Agentin & Buchungsmanagerin",
+          "description": "Sue leitet das TV- und Corporate-Team und ist bestens vertraut mit der Musik- und TV-Branche. Sie begann ihre berufliche Laufbahn bei Chappell’s Music Publishing und arbeitete viele Jahre in A & R mit Künstlern wie Barry Manilow und The Communards."
+        },
+        "martinAstley": {
+          "title": "IT-Leiter",
+          "description": "Martin ist ein hoch erfahrener IT-Sicherheitsexperte mit umfassender Erfahrung in der Arbeit für Prominente und sehr hochkarätige Organisationen. Er verwaltet soziale Medienkonten, Websites, Online-Shops, Marketingkampagnen und mehr."
+        },
+        "georgiaWade": {
+          "title": "Managerassistentin",
+          "description": "Georgia bringt eine lebendige Mischung aus Kreativität und Effizienz in unser Team. Mit tiefen Wurzeln in der Mode verlagert sie ihr Fachwissen in den Unternehmensbereich und bringt frische Perspektiven und innovative Lösungen in jede Aufgabe ein, die sie übernimmt."
+        },
+        "maliaEngland": {
+          "title": "Leiterin Theater & Live",
+          "description": "Julia begann ihre Reise in der Unterhaltungsindustrie mit 18 Jahren und verfeinerte ihre Fähigkeiten an der Birmingham School of Speech Training and Dramatic Art. Sie hat mit hochkarätigen Kunden gearbeitet und hat eine dynamische Karriere in der Theater- und Tour-Buchungen."
+        },
+        "sallyBerkins": {
+          "title": "Künstler-Relations-Managerin",
+          "description": "Sally Kings Weg in die Unterhaltungsindustrie begann mit einer Tanzausbildung, was zu einer dynamischen Karriere als Tänzerin in der Young Generation-Tanzgruppe führte. Jetzt ist sie verantwortlich für Künstlerbeziehungen und Casting bei Active Agents."
+        },
+        "ruth": {
+          "title": "Werbung & Social Media Managerin",
+          "description": "Ruth nutzt ihr umfassendes Wissen im digitalen Advertising, um Kampagnen zu erstellen und umzusetzen, die Ergebnisse liefern. Sie glänzt bei der Erstellung gezielter Werbestrategien und sorgt für maximale Reichweite und Engagement."
+        },
+        "corey": {
+          "title": "Leiter Grafikdesign",
+          "description": "Corey ist der kreative Visionär und Leiter unseres Grafikdesigns. Er überwacht alle Grafikdesign-Projekte und stellt sicher, dass jedes mit unseren Marketingzielen übereinstimmt und unser Publikum anspricht."
+        },
+        "connor": {
+          "title": "Grafikdesigner",
+          "description": "Connor ist ein talentierter Grafikdesigner mit starkem Hintergrund in visuellen Künsten. Er spielt eine entscheidende Rolle bei der Entwicklung der visuellen Identität unserer Marke und sorgt dafür, dass unsere visuellen Inhalte sowohl ästhetisch ansprechend als auch funktional sind."
+        },
+        "anro": {
+          "title": "Grafikdesigner",
+          "description": "Anro ist ein erfahrener Grafikdesigner, bekannt für seine innovativen Designs. Er arbeitet mit den Marketing- und Content-Teams zusammen, um überzeugende Grafiken zu erstellen, die mit unserer Markenidentität übereinstimmen."
+        },
+        "shannon": {
+          "title": "Marketing Executive",
+          "description": "Shannon ist eine dynamische Marketing-Executive mit Erfahrung im digitalen Marketing. Sie entwickelt und implementiert Marketingstrategien, die Engagement und Wachstum fördern und sicherstellen, dass unsere Marketingmaßnahmen wirkungsvoll und relevant sind."
+        },
+        "michaela": {
+          "title": "Marketing Administratorin",
+          "description": "Michaela sorgt für den reibungslosen Ablauf unserer Marketingaktivitäten. Ihre Unterstützung ist entscheidend für die Aufrechterhaltung effizienter Arbeitsabläufe, damit unser Team sich auf kreative und strategische Initiativen konzentrieren kann."
+        },
+        "peter": {
+          "title": "SEO-Leiter",
+          "description": "Peter ist die treibende Kraft hinter unseren SEO-Bemühungen. Mit umfangreicher Erfahrung in der SEO-Strategie verbessert er unsere Online-Sichtbarkeit und steigert den organischen Traffic, um sicherzustellen, dass unsere Website hoch in den Suchmaschinen eingestuft wird."
+        },
+        "bradley": {
+          "title": "Grafikdesigner",
+          "description": "Bradley wird für seine kreative Exzellenz und innovative Designlösungen anerkannt. Er trägt erheblich zu unseren visuellen Inhalten bei und stellt sicher, dass unsere Designs visuell ansprechend sind und unsere Markenbotschaft effektiv kommunizieren."
+        }
+      }
+    },
+    "contactPage": {
+      "line1": "Kontaktieren Sie uns",
+      "line2": "Bei Fragen zu unseren Dienstleistungen oder zur Identifizierung des richtigen Talents für Ihr Projekt, senden Sie uns eine E-Mail an info@activebmanagement.com oder füllen Sie unser Anfrageformular aus. Einer unserer Agenten wird sich so schnell wie möglich bei Ihnen melden."
+    },
+    "quoteForm": {
+      "line1": "Stellen Sie noch heute eine Anfrage!",
+      "line2": "*Leider können wir keine Post an unsere Kunden weiterleiten. Bitte beachten Sie, dass unaufgeforderte Post NICHT zurückgeschickt wird und entsprechend entsorgt wird.",
+      "line3": "Ihr Name",
+      "line4": "Was ist Ihre Anfrage?",
+      "line5": "Wählen Sie eine Option",
+      "line6": "Termin vereinbaren",
+      "line7": "Urlaub buchen",
+      "line8": "Charity-Unterstützung",
+      "line9": "Interview-Anfrage",
+      "line9y": "Begrüßung",
+      "line10": "Ruhestand anfragen",
+      "line11": "Telefonnummer",
+      "line11y": "E-Mail-Adresse",
+      "line12": "Erzählen Sie uns von Ihrer Anfrage",
+      "line13": "FORMULAR ABSENDEN",
+      "line14": "Öffnungszeiten",
+      "line15": "Montag: 9-18 Uhr",
+      "line16": "Dienstag: 9-18 Uhr",
+      "line17": "Mittwoch: 9-18 Uhr",
+      "line18": "Donnerstag: 9-18 Uhr",
+      "line19": "Freitag: 9-18 Uhr"
+    },
+    "aboutSection": {
+    "line4": "Wir legen Wert auf Integrität, Exzellenz und Engagement, um sicherzustellen, dass wir immer mit den höchsten ethischen Standards arbeiten.",
+    "line5": "Unsere Celebrity Management Agency ist tief in der Medienbranche verwurzelt und besteht aus einem talentierten Team von Fachleuten mit umfassender Erfahrung und Expertise in Celebrity Management, PR, Prominenten-Werbung, Medien, Events, Markenbewusstseinsmarketing und Theater-Tour-Buchungen. Wir laden Sie herzlich ein, Teil unserer zufriedenen Kundenfamilie zu werden und freuen uns darauf, Ihnen eine erstklassige, auf Ihre Bedürfnisse zugeschnittene Erfahrung zu bieten.",
+    "line6": "Willkommen bei unserer renommierten Prominenten-Agentur! Wir sind stolz darauf, herausragende Ergebnisse zu liefern und dabei höchste Vertraulichkeit und Diskretion für unsere Kunden zu wahren. Unser Team von professionellen, aber dennoch zugänglichen Promi-Agenten ist bestrebt, eine nahtlose Management-Erfahrung zu bieten, was es zu einer Freude macht, einen Prominenten für Ihr Projekt zu sichern.",
+    "line7": "Unser Unternehmen, gegründet vom geschätzten Geschäftsführer David Hahn, bringt über vierzig Jahre Erfahrung in der Medienbranche mit. David hat eine beeindruckende Karriere im Fernsehen und in der Musik, mit Referenzen wie Sky Television und Rollen als Toningenieur für ikonische Namen wie CBS, DJM und das Apple-Label der Beatles. Bei Celeb Agents sind wir darauf spezialisiert, unsere Kunden durch die vielfältigen Wege der Unterhaltungswelt zu beraten und zu begleiten. Die Abteilungen unserer Celebrity Booking Agency arbeiten zusammen, um die Fähigkeiten und Stärken jedes Kunden individuell zu fördern.",
+    "Header1": "Über uns",
+    "Header2": "Unsere Vision",
+    "Header3": "Unsere Mission",
+    "Header4": "Unsere Werte"
+  },
+  "serviceComp": {
+    "line1": "Unsere Dienstleistungen",
+    "line2": "Wir bieten ein umfassendes Spektrum an Dienstleistungen, die darauf ausgelegt sind, das öffentliche Image unserer Prominenten-Kunden zu verbessern und zu verwalten.",
+    "line3": "Öffentlichkeitsarbeit",
+    "line4": "Wir sind spezialisiert auf die Vertretung von Prominenten und die Verwaltung ihres öffentlichen Images. Unsere Dienstleistungen umfassen die Koordination von Interviews und Auftritten, das Management von sozialen Medien und die Bearbeitung von Medienanfragen.",
+    "line5": "Prominenten-Buchungen & Events",
+    "line6": "Wir vereinfachen den Buchungsprozess für Promi-Auftritte bei verschiedenen Veranstaltungen und gewährleisten einen reibungslosen Ablauf für alle Beteiligten.",
+    "line7": "Interviews",
+    "line8": "Wir freuen uns, Interviews mit unseren herausragenden Prominenten zu vermitteln und eine kollaborative und produktive Erfahrung zu gewährleisten.",
+    "line9": "Persönliche Auftritte",
+    "line10": "Wir sind auf die Organisation verschiedener Engagements spezialisiert, einschließlich Reden, Buchsignierungen, Konzerte und Roten Teppich-Auftritte, und bieten unseren Kunden ein nahtloses Erlebnis."
+  },
+  "map": {
+    "line1": "Markierungstitel",
+    "line2": "Zusätzliche Informationen zu diesem Standort."
+  },
+  "footer": {
+    "line1": "Über uns",
+    "line2": "Das Team kennenlernen",
+    "line3": "Allgemeine Geschäftsbedingungen",
+    "line4": "Datenschutzrichtlinie",
+    "line5": "Neueste Nachrichten",
+    "line6": "Kontakt",
+    "line7": "Mit uns verbinden",
+    "line8": "Copyright © 2024 Active Celeb Agents | Alle Rechte vorbehalten | Website entworfen & gepflegt von Be My Media"
+  },
+  "hero": {
+    "line1": "Das Beste aus unseren Kunden herausholen.",
+    "line2": "Starke Beziehungen:",
+    "line3": "Wichtige Branchenkontakte pflegen...",
+    "line4": "Persönliche Markenbildung:",
+    "line5": "Ein konsistentes, authentisches Image wahren...",
+    "line6": "Krisenmanagement:",
+    "line7": "Negative Publicity schnell bewältigen...",
+    "line8": "Persönliche Markenbildung:",
+    "line9": "Sichere, vorteilhafte Kooperationen erleben...",
+    "line10": "Persönliche Markenbildung:",
+    "line11": "Sichere, vorteilhafte Kooperationen erleben...",
+    "line12": "Digitale Präsenz:",
+    "line13": "Social-Media-Engagement optimieren..."
+  }
+}

@@ -1,0 +1,164 @@
+{
+
+  "navbar": {
+    "About": "About Us",
+    "Contact": "Contact Us",
+    "Home": "Home "
+  },
+  "aboutPage":{
+    "line1":"About Us",
+    "line2":"Motto",
+    "line3":"Bringing the best out of our clients.",
+    "line4":"Goals",
+    "line5":"To provide top-notch management services.",
+    "line6":"Achievements",
+    "line7":"Successfully managed over 100 celebrities.",
+    "line8":"Welcome to our distinguished celebrity agency! We take immense pride in delivering outstanding results while maintaining the utmost confidentiality and discretion for our clients. Our team of professional yet approachable celebrity agents is committed to providing a seamless management experience, making it a pleasure to secure a celebrity for your project.",
+    "line9":"Our company, established by the esteemed managing director David Hahn, brings over forty years of experience in the media industry. David has an impressive background in television and music, with credentials that include Sky Television and roles as a sound engineer for iconic names like CBS, DJM, and The Beatles' Apple label. At Active agents, we are dedicated to advising and guiding our clients through the diverse pathways of the entertainment world. Our Celebrity Booking Agency’s divisions work together to enhance each client’s skills and strengths on an individualized basis.",
+    "line10":"Our Celebrity Management Agency is deeply involved in the media industry, featuring a talented group of professionals with extensive experience and expertise in Celebrity Management, PR, Celebrity Endorsements, Media, Events, Brand Awareness Marketing, and Theatre Tour Bookings. We warmly invite you to join our family of satisfied clients and look forward to providing you with a top-notch experience tailored to your needs.",
+    "line11":"Meet The Team",
+    "teamMembers": {
+      "davidHarry": {
+        "title": "CEO",
+        "description": "The company, set up by managing director David Hahn, has been in the media business for more than four decades. David himself has invaluable experience in both the TV and music industries, having worked for Sky TV and as a recording engineer for the likes of CBS, DJM, and the infamous Beatle-owned Apple."
+      },
+      "sueHarry": {
+        "title": "Agent & Bookings Manager",
+        "description": "Sue heads up the TV and Corporate team and is no stranger to the music industry and TV industries. She started her working life at Chappell’s Music Publishing and worked in A & R for many years with artists including Barry Manilow and The Communards."
+      },
+      "martinAstley": {
+        "title": "Head of IT",
+        "description": "Martin is a highly experienced IT security & infrastructure expert with a demonstrated history working for celebrities and some very high-profile organisations. He manages social media accounts, websites, online shops, marketing campaigns, and more."
+      },
+      "georgiaWade": {
+        "title": "Manager Assistant",
+        "description": "Georgia brings a vibrant fusion of creativity and efficiency to our team. With roots deeply embedded in fashion, she transitions her expertise into the corporate realm, infusing fresh perspectives and innovative solutions into every task she undertakes."
+      },
+      "maliaEngland": {
+        "title": "Head of Theatre & Live",
+        "description": "Julia embarked on her journey in the entertainment industry at 18, honing her skills at the Birmingham School of Speech Training and Dramatic Art. She has worked with high-profile clients and has a dynamic career in theatre and tour bookings."
+      },
+      "sallyBerkins": {
+        "title": "Artist Relations Manager",
+        "description": "Sally King’s journey in entertainment began with dance training, leading to a dynamic career as a dancer with the Young Generation dance group. She is now responsible for artist relations and casting at Active agents."
+      },
+      "ruth": {
+        "title": "Advertising & Social Media Manager",
+        "description": "Ruth leverages her extensive knowledge of digital advertising to create and execute campaigns that drive results. She excels in crafting targeted ad strategies, ensuring maximum reach and engagement."
+      },
+      "corey": {
+        "title": "Graphic Design Lead",
+        "description": "Corey is the creative visionary, serving as our Graphic Design Lead. He oversees all graphic design projects, ensuring each aligns with our marketing goals and resonates with our audience."
+      },
+      "connor": {
+        "title": "Graphic Designer",
+        "description": "Connor is a talented Graphic Designer with a strong background in visual arts. He plays a crucial role in developing our brand's visual identity, ensuring that our visual content is both aesthetically pleasing and functional."
+      },
+      "anro": {
+        "title": "Graphic Designer",
+        "description": "Anro is a skilled Graphic Designer known for his innovative designs. He collaborates with the marketing and content teams to create compelling graphics, ensuring consistency with our brand identity."
+      },
+      "shannon": {
+        "title": "Marketing Executive",
+        "description": "Shannon is a dynamic Marketing Executive with a background in digital marketing. She develops and implements marketing strategies that drive engagement and growth, ensuring our marketing efforts are impactful and relevant."
+      },
+      "michaela": {
+        "title": "Marketing Administrator",
+        "description": "Michaela ensures the smooth operation of our marketing activities. Her support is crucial in maintaining efficient workflows, enabling our team to focus on creative and strategic initiatives."
+      },
+      "peter": {
+        "title": "SEO Lead",
+        "description": "Peter is the driving force behind our SEO efforts. With extensive experience in SEO strategy, he enhances our online visibility and drives organic traffic, ensuring our website ranks highly on search engines."
+      },
+      "bradley": {
+        "title": "Graphic Designer",
+        "description": "Bradley is recognized for his creative excellence and innovative design solutions. He contributes significantly to our visual content, ensuring that our designs are visually appealing and effectively communicate our brand message."
+      }
+    }
+  },
+   "contactPage":{
+     "line1":"Contact Us",
+     "line2": "For any questions about our services or help identifying the right talent for your project, email us at  info@activebmanagement.com  or fill out our inquiry form. One of our agents will be in touch as soon as possible."
+  },
+
+
+  "quoteForm":{
+    "line1":"Make An Enquiry Today!",
+    "line2":"*Unfortunately, we are unable to forward any mail to our clients. Please note, any unsolicited mail will NOT be returned and will be disposed of accordingly.",
+    "line3":"Your Name",
+    "line4":"What's Your Enquiry?",
+    "line5":"Select an option",
+    "line6":"Book an appointment",
+    "line7": "Book a Vacation",
+    "line8":"Charity support",
+    "line9":"Interview Request",
+    "line9y":"Meet and greet",
+    "line10":"Ask for retirement",
+    "line11":"Telephone Number",
+    "line11y":"Email Address",
+    "line12":"Tell Us About Your Enquiry",
+    "line13":" SUBMIT FORM",
+    "line14":"Opening Hours",
+    "line15":"Monday: 9am-6:00pm",
+    "line16":"Tuesday: 9am-6:00pm",
+    "line17":"Wednesday: 9am-6:00pm",
+    "line18":"Thursday: 9am-6:00pm",
+    "line19":"Friday: 9am-6:00pm"
+  },
+  "aboutSection":{
+    "line1":" We are dedicated to providing the best services to our clients, with a focus on quality, integrity, and excellence",
+    "line2":"Our mission is to deliver top-notch services that exceed our clients' expectations, fostering long-term relationships built on trust.",
+    "line3":"We envision becoming the industry leader, setting benchmarks in service quality and customer satisfaction.",
+    "line4":"We value integrity, excellence, and dedication, ensuring that we always operate with the highest ethical standards.",
+    "line5":"Our Celebrity Management Agency is deeply involved in the media industry, featuring a talented group of professionals with extensive experience and expertise in Celebrity Management, PR, Celebrity Endorsements, Media, Events, Brand Awareness Marketing, and Theatre Tour Bookings. We warmly invite you to join our family of satisfied clients and look forward to providing you with a top-notch experience tailored to your needs.",
+    "line6":"Welcome to our distinguished celebrity agency! We take immense pride in delivering outstanding results while maintaining the utmost confidentiality and discretion for our clients. Our team of professional yet approachable celebrity agents is committed to providing a seamless management experience, making it a pleasure to secure a celebrity for your project.",
+    "line7":"Our company, established by the esteemed managing director David Hahn, brings over forty years of experience in the media industry. David has an impressive background in television and music, with credentials that include Sky Television and roles as a sound engineer for iconic names like CBS, DJM, and The Beatles' Apple label. At Celeb Agents, we are dedicated to advising and guiding our clients through the diverse pathways of the entertainment world. Our Celebrity Booking Agency’s divisions work together to enhance each client’s skills and strengths on an individualized basis.",
+    "Header1":"About Us",
+    "Header2":"Our Vision",
+    "Header3":"Our Mission",
+    "Header4":"Our Values"
+  },
+  "serviceComp":{
+    "line1":"Our Services",
+    "line2":"We offer a comprehensive range of services designed to enhance and manage the public image of our celebrity clients.",
+    "line3":"Public Relations",
+    "line4":"We specialize in representing celebrities and managing their public image. Our services include coordinating interviews and appearances, managing social media, and handling media inquiries.",
+    "line5":"Celebrity Bookings & Events",
+    "line6":"We streamline the booking process for celebrity appearances at various events, ensuring a smooth experience for everyone involved.",
+    "line7":"Interviews",
+    "line8":"We are excited to facilitate interviews with our distinguished celebrities, ensuring a collaborative and productive experience.",
+    "line9":"Personal Appearances",
+    "line10":"We excel at organizing various engagements, including speaking events, book signings, concerts, and red-carpet appearances, providing a seamless experience for our clients."
+  },
+  "map":{
+    "line1":"Marker Title",
+    "line2":"Additional information about this location."
+  },
+  "footer":{
+    "line1":"About Us",
+    "line2":"Meet the Team",
+    "line3":"Terms & Conditions",
+    "line4":"Privacy Policy",
+    "line5":"Latest News",
+    "line6":"Contact Us",
+    "line7":"Connect with Us",
+    "line8":"Copyright © 2024 Active Celeb Agents | All Rights Reserved | Website Designed & Maintained by Be My Media"
+  },
+  "hero":{
+    "line1":"Bringing the best out of our clients.",
+    "line2": "Strong Relationships:",
+    "line3": "Cultivate key industry connections...",
+    "line4":"Personal Branding:",
+    "line5":" Maintain a consistent, authentic image...", 
+    "line6":"Crisis Management:",
+    "line7": "Handle negative publicity swiftly...",
+    "line8":"Personal Branding:",
+    "line9":"Experience secure beneficial collaborations...", 
+    "line10":"Personal Branding:",
+    "line11":"Experience secure beneficial collaborations...", 
+    "line12":"Digital Presence:",
+    "line13":"Optimize social media engagement..."
+
+  }
+}
+
