@@ -10,6 +10,23 @@ const TawkToWidget = () => {
     tawkScript.setAttribute('crossorigin', '*');
     document.body.appendChild(tawkScript);
 
+        // Setup the Tawk.to API after the script loads
+    tawkScript.onload = () => {
+      if (window.Tawk_API) {
+        window.Tawk_API.onLoad = () => {
+          // Configure pre-chat form fields
+          window.Tawk_API.setAttributes({
+            name: { required: true, visible: true },
+            email: { required: true, visible: true }
+          }, function(error){ 
+            if (error) {
+              console.error('Error setting attributes:', error);
+            }
+          });
+        };
+      }
+    }
+
     // Cleanup on unmount
     return () => {
       document.body.removeChild(tawkScript);
